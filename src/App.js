@@ -1,12 +1,13 @@
-import React from 'react';
-import {Header} from "./mediaQuery/Header"
+import React from 'react'
+import Trello from './Trello/Trello'
 
 
 const App = () => {
   return (
     <div>
-      <Header/>
+      <Trello />
     </div>
   )
 }
+
 export default App
